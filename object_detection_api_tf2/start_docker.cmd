@@ -1,0 +1,1 @@
+docker run -it --shm-size 16G --gpus all --volume C:\dockers\ssd_person_training:/tensorflow/models/research/ssd_training  ssdpersontraining:latest
